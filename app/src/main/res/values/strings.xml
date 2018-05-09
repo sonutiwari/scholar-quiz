@@ -19,4 +19,6 @@
     <string name="signup">Sign Up</string>
     <string name="alreadyUser">Already a User?</string>
     <string name="loginHere">Log In here</string>
+    <string name="got_it">Got It</string>
+    <string name="welcome">Welcome</string>
 </resources>

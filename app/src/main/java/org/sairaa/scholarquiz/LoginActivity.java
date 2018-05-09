@@ -1,6 +1,7 @@
 package org.sairaa.scholarquiz;
 
 import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -19,7 +20,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        // check wheathe the user already logged in or not
+        // check whether the user already logged in or not
         sharedPreferenceConfig = new SharedPreferenceConfig(getApplicationContext());
         if (sharedPreferenceConfig.readLoginStatus()){
             startActivity(new Intent(LoginActivity.this,LessonActivity.class));

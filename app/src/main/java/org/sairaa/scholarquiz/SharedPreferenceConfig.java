@@ -9,7 +9,8 @@ public class SharedPreferenceConfig {
 
     public SharedPreferenceConfig(Context context){
         this.context = context;
-        sharedPreferences = context.getSharedPreferences(context.getResources().getString(R.string.login_prferance), Context.MODE_PRIVATE);
+        sharedPreferences = context.getSharedPreferences(context.getResources().getString(R.string.login_prferance)
+                , Context.MODE_PRIVATE);
 
     }
     public void writeLoginStatus(boolean status){
