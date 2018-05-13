@@ -27,7 +27,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             app:srcCompat="@drawable/scholarquizapplogo"
-            android:layout_marginBottom="16dp"/>
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/app_logo" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -94,7 +95,7 @@
                 android:text="@string/regLogIn"
                 android:textColor="#00ddff"
                 android:textSize="16sp"
-                android:layout_marginLeft="3dp"/>
+                android:layout_marginStart="3dp" />
         </LinearLayout>
 
     </LinearLayout>

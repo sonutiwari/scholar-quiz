@@ -21,4 +21,9 @@
     <string name="loginHere">Log In here</string>
     <string name="got_it">Got It</string>
     <string name="welcome">Welcome</string>
+    <string name="logout">Logout</string>
+    <string name="score_card">Score Card</string>
+    <string name="profile">Profile</string>
+    <string name="my_header_title">My header title</string>
+    <string name="app_logo">App logo</string>
 </resources>

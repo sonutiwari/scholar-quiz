@@ -4,15 +4,15 @@
         <item
             android:id="@+id/profile_nav"
             android:icon="@mipmap/ic_launcher_round"
-            android:title="Profile" />
+            android:title="@string/profile" />
         <item
             android:id="@+id/score_nav"
             android:icon="@mipmap/ic_launcher_round"
-            android:title="Score Card" />
+            android:title="@string/score_card" />
         <item
             android:id="@+id/logout_nav"
             android:icon="@mipmap/ic_launcher_round"
-            android:title="Logout" />
+            android:title="@string/logout" />
 
     </group>
 </menu>
